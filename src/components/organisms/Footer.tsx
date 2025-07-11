@@ -36,7 +36,7 @@ export const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
-          <div data-aos="fade-up" data-aos-delay="100">
+          <div>
             <div className="flex items-center mb-4">
               <span className="text-2xl font-bold text-blue-400">TechSolutions</span>
             </div>
@@ -61,7 +61,7 @@ export const Footer: React.FC = () => {
           </div>
 
           {/* Newsletter Signup */}
-          <div data-aos="fade-up" data-aos-delay="200">
+          <div>
             <h3 className="text-lg font-semibold mb-4">Mantente Conectado</h3>
             <p className="text-gray-300 mb-4 text-sm">
               Suscríbete para recibir las últimas actualizaciones e insights.
@@ -73,7 +73,7 @@ export const Footer: React.FC = () => {
           </div>
 
           {/* Services */}
-          <div data-aos="fade-up" data-aos-delay="300">
+          <div>
             <h3 className="text-lg font-semibold mb-4">Servicios</h3>
             <ul className="space-y-2">
               {footerLinks.services.map((link) => (
@@ -90,7 +90,7 @@ export const Footer: React.FC = () => {
           </div>
 
           {/* Company */}
-          <div data-aos="fade-up" data-aos-delay="400">
+          <div>
             <h3 className="text-lg font-semibold mb-4">Empresa</h3>
             <ul className="space-y-2">
               {footerLinks.company.map((link) => (

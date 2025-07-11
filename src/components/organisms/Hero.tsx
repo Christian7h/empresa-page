@@ -7,16 +7,16 @@ export const Hero: React.FC = () => {
     <section id="home" className="min-h-screen bg-gradient-to-br from-blue-50 to-white flex items-center pt-20 md:pt-0">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <div data-aos="fade-right" data-aos-delay="100">
+          <div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
               Transforma tu Empresa con
               <span className="text-blue-600"> Innovación Digital</span>
             </h1>
-            <p className="mt-6 text-lg md:text-xl text-gray-600 leading-relaxed" data-aos="fade-right" data-aos-delay="200">
+            <p className="mt-6 text-lg md:text-xl text-gray-600 leading-relaxed">
               Ayudamos a las empresas a crecer y tener éxito a través de soluciones tecnológicas de vanguardia, 
               desarrollo experto y transformación digital estratégica.
             </p>
-            <div className="mt-8 flex flex-col sm:flex-row gap-4" data-aos="fade-up" data-aos-delay="300">
+            <div className="mt-8 flex flex-col sm:flex-row gap-4">
               <Button size="lg" className="group">
                 Comenzar Hoy
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
@@ -26,7 +26,7 @@ export const Hero: React.FC = () => {
                 Ver Demo
               </Button>
             </div>
-            <div className="mt-12 grid grid-cols-3 gap-8" data-aos="fade-up" data-aos-delay="400">
+            <div className="mt-12 grid grid-cols-3 gap-8">
               <div className="text-center">
                 <div className="text-3xl font-bold text-blue-600">500+</div>
                 <div className="text-sm text-gray-600">Proyectos Entregados</div>
@@ -41,7 +41,7 @@ export const Hero: React.FC = () => {
               </div>
             </div>
           </div>
-          <div className="relative" data-aos="fade-left" data-aos-delay="200">
+          <div className="relative">
             <div className="aspect-square bg-gradient-to-br from-blue-600 to-teal-600 rounded-3xl p-8 shadow-2xl">
               <div className="w-full h-full bg-white rounded-2xl flex items-center justify-center">
                 <div className="text-center">

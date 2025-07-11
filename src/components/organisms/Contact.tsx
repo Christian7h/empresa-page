@@ -91,7 +91,7 @@ export const Contact: React.FC = () => {
   return (
     <section id="contact" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16" data-aos="fade-up">
+        <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
             Ponte en Contacto
           </h2>
@@ -102,7 +102,7 @@ export const Contact: React.FC = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Contact Information */}
-          <div data-aos="fade-right">
+          <div>
             <h3 className="text-2xl font-semibold text-gray-900 mb-6">
               Comencemos una Conversación
             </h3>
@@ -138,7 +138,7 @@ export const Contact: React.FC = () => {
           </div>
 
           {/* Contact Form */}
-          <div data-aos="fade-left" data-aos-delay="200">
+          <div>
             <Card>
             <h3 className="text-2xl font-semibold text-gray-900 mb-6">
               Envíanos un Mensaje

@@ -1,4 +1,7 @@
 import { Navigation } from './components/molecules/Navigation';
+import { ScrollToTop } from './components/molecules/ScrollToTop';
+import { ScrollProgress } from './components/molecules/ScrollProgress';
+import { WhatsAppButton } from './components/molecules/WhatsAppButton';
 // import { NewsletterBanner } from './components/molecules/NewsletterBanner';
 import { Hero } from './components/organisms/Hero';
 import { Services } from './components/organisms/Services';
@@ -13,6 +16,9 @@ import { Footer } from './components/organisms/Footer';
 function App() {
   return (
     <div className="min-h-screen bg-white">
+      {/* Barra de progreso de scroll */}
+      <ScrollProgress />
+      
       {/* <NewsletterBanner /> */}
       <Navigation /> 
       <Hero />
@@ -24,6 +30,10 @@ function App() {
       <About />
       <Contact />
       <Footer />
+      
+      {/* Botones flotantes */}
+      <ScrollToTop />
+      <WhatsAppButton />
     </div>
   );
 }

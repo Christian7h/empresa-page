@@ -59,7 +59,7 @@ export const Pricing: React.FC = () => {
   return (
     <section id="pricing" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16" data-aos="fade-up">
+        <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
             Precios Transparentes
           </h2>
@@ -67,7 +67,7 @@ export const Pricing: React.FC = () => {
             Elige el plan perfecto para las necesidades de tu empresa
           </p>
           
-          <div className="flex items-center justify-center space-x-4" data-aos="fade-up" data-aos-delay="100">
+          <div className="flex items-center justify-center space-x-4">
             <span className={`text-sm ${!isYearly ? 'text-gray-900' : 'text-gray-500'}`}>
               Mensual
             </span>
@@ -94,7 +94,7 @@ export const Pricing: React.FC = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {pricingPlans.map((plan, index) => (
-            <div key={index} data-aos="fade-up" data-aos-delay={index * 150}>
+            <div key={index}>
               <Card className={`relative ${plan.popular ? 'ring-2 ring-blue-500' : ''}`}>
               {plan.popular && (
                 <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">

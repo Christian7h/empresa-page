@@ -103,7 +103,7 @@ export const About: React.FC = () => {
   return (
     <section id="about" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16" data-aos="fade-up">
+        <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
             Acerca de TechSolutions
           </h2>
@@ -116,7 +116,7 @@ export const About: React.FC = () => {
         {/* Stats Section */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-20">
           {stats.map((stat, index) => (
-            <div key={index} data-aos="fade-up" data-aos-delay={index * 100}>
+            <div key={index}>
               <Card className="text-center">
               <div className="w-16 h-16 mx-auto mb-4 bg-blue-100 rounded-full flex items-center justify-center">
                 <stat.icon size={32} className="text-blue-600" />
@@ -130,8 +130,8 @@ export const About: React.FC = () => {
         </div>
 
         {/* Company Story */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20" data-aos="fade-up">
-          <div data-aos="fade-right">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
+          <div>
             <h3 className="text-2xl font-semibold text-gray-900 mb-6">Nuestra Historia</h3>
             <div className="space-y-5">
               <p className="text-gray-600">
@@ -186,7 +186,7 @@ export const About: React.FC = () => {
               </p>
             </div>
           </div>
-          <div className="relative" data-aos="fade-left" data-aos-delay="200">
+          <div className="relative">
             <div className="aspect-square bg-gradient-to-br from-blue-600 via-purple-600 to-teal-600 rounded-3xl p-1">
               <div className="w-full h-full bg-white rounded-3xl p-8 flex flex-col justify-center items-center">
                 <div className="text-center">
@@ -210,7 +210,7 @@ export const About: React.FC = () => {
         </div>
 
         {/* Team Section */}
-        <div className="text-center mb-12" data-aos="fade-up">
+        <div className="text-center mb-12">
           <h3 className="text-2xl font-semibold text-gray-900 mb-4">Conoce Nuestro Equipo</h3>
           <p className="text-gray-600 max-w-2xl mx-auto">
             Nuestro diverso equipo de expertos reúne años de experiencia y pasión por la tecnología.
@@ -219,7 +219,7 @@ export const About: React.FC = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {teamMembers.map((member, index) => (
-            <div key={index} data-aos="fade-up" data-aos-delay={index * 100}>
+            <div key={index}>
               <TeamMember {...member} />
             </div>
           ))}
