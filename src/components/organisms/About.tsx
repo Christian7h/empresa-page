@@ -132,34 +132,80 @@ export const About: React.FC = () => {
         {/* Company Story */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20" data-aos="fade-up">
           <div data-aos="fade-right">
-            <h3 className="text-2xl font-semibold text-gray-900 mb-4">Nuestra Historia</h3>
-            <p className="text-gray-600 mb-4">
-              Fundada en 2016, TechSolutions comenzó como un pequeño equipo de desarrolladores apasionados 
-              que creían que la tecnología debería ser accesible y transformadora para empresas 
-              de todos los tamaños. Lo que comenzó como una visión para cerrar la brecha entre tecnología compleja 
-              y las necesidades empresariales ha crecido hasta convertirse en un socio integral de transformación digital.
-            </p>
-            <p className="text-gray-600 mb-4">
-              Hoy trabajamos con empresas que van desde startups innovadoras hasta empresas establecidas, 
-              ayudándolas a aprovechar tecnología de vanguardia para alcanzar sus objetivos 
-              y mantenerse competitivas en un panorama digital en constante evolución.
-            </p>
-            <p className="text-gray-600">
-              Nuestro compromiso con la excelencia, innovación y éxito del cliente nos ha ganado la 
-              confianza de más de 500 clientes en todo el mundo, con una tasa de satisfacción del 98% e innumerables 
-              entregas exitosas de proyectos.
-            </p>
+            <h3 className="text-2xl font-semibold text-gray-900 mb-6">Nuestra Historia</h3>
+            <div className="space-y-5">
+              <p className="text-gray-600">
+                <span className="font-semibold text-gray-800">El inicio de un sueño.</span> Todo comenzó en 2016 en los pasillos de la universidad, 
+                cuando cinco estudiantes de ingeniería nos juntamos con una idea que parecía imposible: 
+                democratizar la tecnología para las pequeñas y medianas empresas de Chile. Veíamos cómo 
+                las grandes corporaciones tenían acceso a herramientas digitales de última generación, 
+                mientras que las PyMEs —el verdadero motor económico de nuestro país— luchaban por 
+                mantenerse relevantes en un mundo cada vez más digital.
+              </p>
+              
+              <p className="text-gray-600">
+                <span className="font-semibold text-gray-800">El despertar de una necesidad.</span> Durante nuestras prácticas profesionales, 
+                conocimos a don Carlos, dueño de una ferretería de barrio con 30 años de historia. 
+                Tenía los mejores productos y un servicio excepcional, pero estaba perdiendo clientes 
+                frente a las grandes tiendas que vendían online. Esa noche, en una pizzería cerca de 
+                la universidad, decidimos que nuestro proyecto de título no sería solo una nota: 
+                sería la solución que transformaría la vida de miles de emprendedores como don Carlos.
+              </p>
+              
+              <p className="text-gray-600">
+                <span className="font-semibold text-gray-800">Los primeros pasos.</span> Comenzamos trabajando desde el dormitorio de uno de nosotros, 
+                con dos computadores prestados y mucho café. Nuestro primer cliente fue la panadería 
+                de la esquina, donde desarrollamos un sistema de pedidos online que permitió que 
+                doña María triplicara sus ventas durante la pandemia. Ver su sonrisa cuando le mostramos 
+                las primeras órdenes digitales nos confirmó que estábamos en el camino correcto.
+              </p>
+              
+              <p className="text-gray-600">
+                <span className="font-semibold text-gray-800">El crecimiento orgánico.</span> Lo que empezó como un proyecto universitario se transformó 
+                en una misión de vida. Cada PyME que ayudábamos nos enseñaba algo nuevo: cómo un 
+                taller mecánico podía gestionar citas online, cómo una peluquería podía fidelizar 
+                clientes con una app móvil, cómo artesanos locales podían vender sus creaciones 
+                a todo Chile desde una plataforma e-commerce. Cada historia de éxito alimentaba 
+                nuestra pasión por seguir innovando.
+              </p>
+              
+              <p className="text-gray-600">
+                <span className="font-semibold text-gray-800">El presente y futuro.</span> Hoy, casi una década después, somos más de 50 profesionales 
+                unidos por la misma visión que nos motivó en la universidad. Hemos ayudado a más de 
+                500 PyMEs a digitalizarse, creado empleos directos e indirectos, y contribuido al 
+                crecimiento económico de comunidades enteras. Pero lo más importante: seguimos siendo 
+                esos cinco jóvenes apasionados que creen firmemente que la tecnología debe estar al 
+                alcance de todos, sin importar el tamaño de sus sueños.
+              </p>
+              
+              <p className="text-gray-600 bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500">
+                <span className="font-semibold text-blue-800">Nuestro compromiso hoy:</span> Ser el puente tecnológico 
+                que permita a cada emprendedor chileno competir en igualdad de condiciones en la 
+                era digital, manteniendo siempre el trato cercano y humano que nos caracteriza desde 
+                nuestros días universitarios.
+              </p>
+            </div>
           </div>
-          <div className="aspect-square bg-gradient-to-br from-blue-600 to-teal-600 rounded-3xl p-8" data-aos="fade-left" data-aos-delay="200">
-            <div className="w-full h-full bg-white rounded-2xl flex items-center justify-center">
-              <div className="text-center">
-                <div className="text-6xl mb-4">🚀</div>
-                <h4 className="text-xl font-semibold text-gray-900 mb-2">Innovación Primero</h4>
-                <p className="text-gray-600">
-                  Creemos en traspasar límites y crear soluciones que marquen la diferencia.
-                </p>
+          <div className="relative" data-aos="fade-left" data-aos-delay="200">
+            <div className="aspect-square bg-gradient-to-br from-blue-600 via-purple-600 to-teal-600 rounded-3xl p-1">
+              <div className="w-full h-full bg-white rounded-3xl p-8 flex flex-col justify-center items-center">
+                <div className="text-center">
+                  <div className="text-6xl mb-6 animate-pulse">🎓</div>
+                  <h4 className="text-xl font-bold text-gray-900 mb-3">De Universidad a Realidad</h4>
+                  <p className="text-gray-600 mb-4 text-sm leading-relaxed">
+                    5 estudiantes, 1 sueño, miles de PyMEs transformadas
+                  </p>
+                  <div className="bg-gradient-to-r from-blue-500 to-purple-500 text-white px-4 py-2 rounded-full text-sm font-semibold">
+                    2016 - 2025
+                  </div>
+                </div>
               </div>
             </div>
+            
+            {/* Decorative elements */}
+            <div className="absolute -top-4 -right-4 w-12 h-12 bg-yellow-400 rounded-full opacity-80 animate-bounce"></div>
+            <div className="absolute -bottom-4 -left-4 w-8 h-8 bg-pink-400 rounded-full opacity-60"></div>
+            <div className="absolute top-1/3 -left-6 w-6 h-6 bg-green-400 rounded-full opacity-70"></div>
           </div>
         </div>
 
